@@ -1,7 +1,8 @@
+/*Utilizamos la etiqueta body para establecer el tipo de letra de nuestro texto*/
 body {
   font-family: sans-serif;
 }
-
+/*Utilizamos la etiqueta ul para establecer el tipo de estilo de nuestra lista, relleno, margen, color de fondo, espaciado vertical del texto y la propiedad overflow para controlar la forma en que se visualizan los elementos contenidos en ul*/
 ul {
   list-style: none;
   padding: 0;
@@ -10,20 +11,20 @@ ul {
   line-height: 40px;
   overflow: auto;
 }
-
+/*Utilizamos la etiqueta li para establecer su ancho, alineación de texto y además darle posicionamiento flotante */
 li {
   /*display: inline-block;*/
   width: 100px;
   text-align: center;
   float: left;
 }
-
+/*Utilizamos la etiqueta a para darle display de bloque a nuestros links y establecer su color y decoración de texto*/
 a {
   display: block;
   text-decoration: none;
   color: #fff;
 }
-
+/*Utilizamos la pseudo-clase a:hover para establecer el color de fondo y color de texto de nuestros links al pasar el cursor sobre ellos*/
 a:hover {
   background: #f9a91a;
   color: #000;
